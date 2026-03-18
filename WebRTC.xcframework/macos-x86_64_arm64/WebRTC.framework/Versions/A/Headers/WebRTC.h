@@ -28,13 +28,21 @@
 #import <WebRTC/RTCVideoFrameBuffer.h>
 #import <WebRTC/RTCVideoRenderer.h>
 #import <WebRTC/RTCYUVPlanarBuffer.h>
+#if TARGET_OS_IPHONE
 #import <WebRTC/RTCAudioDevice.h>
+#endif
+#if TARGET_OS_IPHONE
 #import <WebRTC/RTCAudioSession.h>
+#endif
+#if TARGET_OS_IPHONE
 #import <WebRTC/RTCAudioSessionConfiguration.h>
+#endif
 #import <WebRTC/RTCCameraVideoCapturer.h>
 #import <WebRTC/RTCFileVideoCapturer.h>
 #import <WebRTC/RTCNetworkMonitor.h>
+#if TARGET_OS_IPHONE
 #import <WebRTC/RTCMTLVideoView.h>
+#endif
 #if TARGET_OS_IPHONE
 #import <WebRTC/RTCEAGLVideoView.h>
 #endif
